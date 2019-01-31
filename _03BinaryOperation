@@ -1,0 +1,23 @@
+public class _03BinaryOpertions {
+    public static void main (String[] args){
+        int i = 37;
+        int b = 7;
+
+        int result = i+b;
+        System.out.println(result);
+        result = i*b;
+        System.out.println(result);
+        result = i-b;
+        System.out.println(result);
+        result = i/b;
+        System.out.println(result);
+
+        int isPair = result % 2;
+        System.out.println(isPair);
+
+      /*  result = i%b;
+        System.out.println(result);
+        int number = 333;*/
+
+    }
+}
